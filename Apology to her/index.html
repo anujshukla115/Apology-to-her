@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dil se Sorry</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">❤️ MAAN JAO Chuklain</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#memories">Memories</a></li>
+                <li><a href="#messages">Messages</a></li>
+                <li><a href="#music">Our Song</a></li>
+                <li><a href="#promises">Promises</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="heart-animation">
+                <i class="fas fa-heart"></i>
+            </div>
+            <h1 class="title">I'm Truly Sorry</h1>
+            <p class="subtitle">Bhot Yaad aati hai Tumhari</p>
+            <div class="apology-letter">
+                <h2>Meri Chuklain</h2>
+                <p>Mai apni ki hui galtiyon ke liye sorry bolna chahta hu, mene jo kiya pichle time pe mene bure iraade se nhi kiya anjaane mein gusse mein ho gya, mera tumko kabhi galat treat krne ka irada nhi tha.</p>
+                <p>Tumhara gussa aur behaviour jayaz hai aur yahi mai deserve krta hu, aab maaf krna tumhari iccha pe hai, i'm sorry 🩷.</p>
+                <p class="signature">With all my love,<br>Tumhara Chukla</p>
+            </div>
+        </section>
+
+        <!-- Memories Gallery -->
+        <section id="memories" class="memories-section">
+            <h2>Our Beautiful Memories</h2>
+            <p class="section-subtitle">These moments remind me how lucky I am to have you</p>
+            
+            <div class="upload-area" id="uploadArea">
+                
+                
+                <input type="file" id="photoUpload" accept="image/*" multiple style="display: none;">
+            </div>
+            
+            <h2 class="section-title">Our Beautiful Memories</h2>
+        <div class="gallery">
+            <img src="12.jpg" alt="Memory 1">
+            <img src="13.jpg" alt="Memory 2">
+            <img src="17.jpg" alt="Memory 3">
+            <img src="15.jpg" alt="Memory 4">
+            <img src="11.jpg" alt="Memory 5">
+            <img src="14.jpg" alt="Memory 6">
+            <img src="16.jpg" alt="Memory 7">
+            <img src="18.jpg" alt="Memory 8">
+        </div>
+            
+            <div class="memory-quote">
+                "Humare Kuch Khaas Pal."
+            </div>
+        </section>
+
+        <!-- Personal Messages -->
+<section id="messages" class="messages-section">
+    <h2>My Heart's Messages</h2>
+    <div class="messages-container">
+        <div class="message-card">
+            <div class="message-icon">
+                <i class="fas fa-sad-tear"></i>
+            </div>
+            <h3>I Miss You</h3>
+            <p>Bhot Dor ho tum bhot yaad aati hai tumhari.</p>
+        </div>
+        
+        <div class="message-card">
+            <div class="message-icon">
+                <i class="fas fa-heart"></i>
+            </div>
+            <h3>I love you</h3>
+            <p>Hum toh ko itna chahte hai itna chahte hai ka bataye kitna chahte hai.</p>
+        </div>
+        
+        <div class="message-card">
+            <div class="message-icon">
+                <i class="fas fa-heartbeat"></i>
+            </div>
+            <h3>I'm Sorry</h3>
+            <p>Please maaf krdo nafrat mt kro mujhse.</p>
+        </div>
+        
+        <div class="message-card">
+            <div class="message-icon">
+                <i class="fas fa-hand-holding-heart"></i>
+            </div>
+            <h3>Mai badmashi bhi krunga</h3>
+            <p>Tum chillaogi nhi pyaar krogi meko.</p>
+        </div>
+    </div>
+    
+    <!-- Add Custom Message -->
+    <div class="custom-message">
+        <h3>Add Your Personal Message</h3>
+        <textarea id="customMessage" placeholder="Write your own heartfelt message here..."></textarea>
+        <button id="addMessageBtn" class="btn">Add to Messages</button>
+        <div id="messagePreview"></div>
+    </div>
+</section>
+
+        <!-- Music Section -->
+<section id="music" class="music-section">
+    <h2 class="section-title">Our Song</h2>
+    <div class="music-player">
+        <p>This song always reminds me of you.</p>
+        <audio id="ourSong" controls preload="auto">
+            <source src="Aaja Piya Tohe Pyar Doon-320kbps.mp3" type="audio/mpeg">
+            <source src="Aaja Piya Tohe Pyar Doon-320kbps.mp3" type="audio/mp3">
+        </audio>
+    </div>
+</section>
+
+<!-- Promises Section -->
+<section id="promises" class="promises-section">
+    <h2>Mai Waada Krta Hu</h2>
+    <div class="promises-container">
+        <div class="promise">
+            <div class="promise-number">1</div>
+            <h3>Mai Tumhari har baat manunga</h3>
+            <p>tumhari har baat sununga aur manne ki koshish krunga.</p>
+        </div>
+        <div class="promise">
+            <div class="promise-number">2</div>
+            <h3>Mai accha baacha banunga</h3>
+            <p>tumhara accha baacha banunga nanna munna baacha.</p>
+        </div>
+        <div class="promise">
+            <div class="promise-number">3</div>
+            <h3>Mai tumhe khoob pyaar karunga</h3>
+            <p>I love you meko khoob pyaar dena hai tumko.</p>
+        </div>
+        <div class="promise">
+            <div class="promise-number">4</div>
+            <h3>Mai tumko kabhi nhi chodunga</h3>
+            <p>Mai hamesa tumhara hi hu kabhi chod ke nhi jaunga.</p>
+        </div>
+    </div>
+    
+    <!-- Add Custom Promise -->
+    <div class="add-promise">
+        <h3>Add Your Own Promise</h3>
+        <input type="text" id="promiseTitle" placeholder="Promise title">
+        <textarea id="promiseDescription" placeholder="Promise details..."></textarea>
+        <button id="addPromiseBtn" class="btn">Add Promise</button>
+    </div>
+</section>
+
+<!-- Final Message -->
+<section class="final-section">
+    <div class="final-message">
+        <h2>Maaf kr dia🥺?</h2>
+        <p>Mai bhot pyaar krta hu tumko babu.</p>
+        <div class="forgiveness-buttons">
+            <button id="yesBtn" class="forgiveness-btn yes-btn">Ha kr dia babu🍒</button>
+            <button id="maybeBtn" class="forgiveness-btn maybe-btn">Nhi abhi bhi gussa hu 😒</button>
+        </div>
+        <div id="forgivenessMessage" class="hidden">
+            <h3>Thank you babu🩷</h3>
+        </div>
+    </div>
+</section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with <i class="fas fa-heart"></i> for the most amazing person in my life</p>
+        
+    </footer>
+
+    <!-- Floating Hearts -->
+    <div class="floating-hearts"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
